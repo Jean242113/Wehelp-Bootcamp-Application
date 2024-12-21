@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wehelp Bootcamp Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Body and Global Styles */
+        body {
+            background-color: #f8f1e7;
+            /* Light tea color background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 56px;
+            color: #5f4b3d;
+            /* Darker brown text */
+        }
+
+        h3 {
+            color: #5f4b3d;
+            /* Dark brown for headings */
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #5f4b3d;
+            /* Darker brown for paragraphs */
+        }
+
+        .section-header {
+            background-color: #f1e0c6;
+            /* Soft cream tea background for sections */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .navbar-light {
+            background-color: #f8f1e7;
+            /* Light tea color background for navbar */
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #5f4b3d;
+            /* Dark brown for navbar links */
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            background-color: #e7c3a4;
+            /* Soft brown on hover */
+            color: #ffffff;
+        }
+
+        .navbar-toggler {
+            border-color: transparent;
+        }
+
+        /* Section and Content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-nav li {
+            margin-right: 15px;
+        }
+
+        hr {
+            border-top: 2px solid #e7c3a4;
+            /* Soft brown for horizontal lines */
+        }
+
+        .section-link {
+            color: #e7c3a4;
+            /* Light brown for section links */
+            text-decoration: none;
+        }
+
+        .section-link:hover {
+            color: #5f4b3d;
+            /* Dark brown on hover */
+        }
+
+        footer {
+            background-color: #e7c3a4;
+            /* Soft brown for footer */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Wehelp Bootcamp Application</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link section-link" href="#personal-introduction">個人簡介和申請動機</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#portfolio">相關作品分享</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#time-management">學習時間規劃</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#tech-trends">科技趨勢的想法</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#emotions">排解負面情緒</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#tech-insights">分享技術心得</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#relationship">自身工作與社會的關係</a></li>
+                <li class="nav-item"><a class="nav-link section-link" href="#talk-more">有些話想對您們說</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section id="personal-introduction" class=" section-header">
+            <h3>個人簡介和申請動機</h3>
+            <p>Wehelp的導師夥伴您們好，我叫子芸，我是一個細心、擅於思考分析、傾聽的人，平時的興趣是各家商場的同品項之分析比價、學習探索各項新知識及技能及透過觀察生活周遭事物所遭遇的問題，並思考該如何提出解決方案。
+            </p>
+            <p>想要申請wehelp的動機是源於我大學畢業的第一份工作大學的專案助理，也因為所負責專案需要大量與工程師溝通，在日復一日協助客戶解決問題的狀況下，進而對程式學習產生興趣，平時除了上網自學也到大學課堂旁聽相關程式課程，學習到基礎的python、C、SQL相關程式語言，並嘗試練習相關題目，之後錄取國泰資訊培訓人員，培訓期間學習到Java、SQL及JavaScript的相關應用，因對前端程式較有興趣，故去年於台大資訊培訓班進修學習HTML、CSS、Bootstrap相關網頁製作技能。
+            </p>
+            <p>即使有這麼多的學習，但仍覺得停留在理論層面，無法將所學知識實際運用在開發中感到困惑和自我懷疑。這也讓我在轉職的過程中有些掙扎，當然曾經也想過乾脆放棄，回到行政領域的舒適圈，但是最終還是不想放棄這個夢想。
+            </p>
+            <p>也因我以往並無經歷過系統化的程式培訓，所以在聽完Wehelp的說明會後，非常認同此計畫的規劃及運作方式，所以我決定再給自己最後一次機會，報名這個訓練計畫，希望可以在這期間補足自身所欠缺的能力與不足，並期望成功轉職為一名軟體工程師。
+            </p>
+        </section>
+
+        <section id="portfolio" class="section-header">
+            <h3>曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們</h3>
+            <p>在大學擔任專任助理期間，我有機會旁聽資訊系的Python和C語言課程。離職後，我也報名了許多線上課程做學習。之後，我參加了國泰集團的資訊培訓計劃，學習了Java、SQL和JavaScript等技能，並對前端開發特別感興趣。去年，我在台大資訊培訓班學習了HTML、CSS、Bootstrap等技術，並完成了我的第一個網頁作品。
+            </p>
+            <p>我的網頁作品：
+                <a href="https://gozilla-tzuyun-first-web.surge.sh/?fbclid=IwY2xjawHRDdRleHRuA2FlbQIxMAABHdSdw-MSmHIxrKLgl0j2nuh6pYauaN5PrLW4HMWTMeR6qQTUdV-WmajBEA_aem_g1r4ykb7zfzO-nkC_hH95g#featuresSection"
+                    target="_blank">點這裡~</a>。
+            </p>
+        </section>
+
+        <section id="time-management" class="section-header">
+            <h3>如果參與這個訓練，會怎麼安排學習時間？</h3>
+            <p>目前我還是待業狀態，所以我有比較多的時間進行學習。我計劃以一般上班族的工作時間來安排每天的學習與練習，並確保每週五前完成作業。週六是完全的休息日，做些自己喜歡的事情，來紓解壓力。週日則會做最後的檢查，確保程式順利運行，並準備迎接下週的挑戰。
+            </p>
+        </section>
+
+        <section id="tech-trends" class="section-header">
+            <h3>軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？</h3>
+            <P>我的想法是工作會被淘汰取代，但只要科技還在發展，這個產業就不會消失，就算消失也可能是以另一種形式存在，被淘汰取代的只有不繼續精進跟上時代變化的人，如果這個產業真的要被消失和取代，那些大學的資訊系每年這麼多畢業生，又該怎麼辦?!就像前幾年房市大熱，也是出現許多房產公司大幅度招人，但也造就許多品質不佳的業務，但目前房市熱度退卻回歸正常，許多不適任業務就自然被市場淘汰，就如同彭彭老師在說明會所說，這個產業目前只是回歸只是正常的供需，所以我認為只要認真的投入並持續精進，不管身在哪個領域都會是正確且有回報的。
+            </P>
+        </section>
+
+        <section id="emotions" class="section-header">
+            <h3>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h3>
+            <p>我曾在國泰的培訓中，遇到一位對我們每日作業進行不合理批改的嚴苛montor。每次作業都會被指出很多錯誤，而這些錯誤往往都是我們的寫法與他所想的寫法不同。每當我去詢問問題時，他的回應往往都不是建議，而是充滿諷刺的不友善言論，讓我每天感到非常沮喪並產生嚴重的焦慮。在這樣的情況下，我下班後選擇放鬆自己，讓自己暫時脫離跟工作有關的一切事物，做些自己喜歡的事來轉換心情排解壓力，並最終決定離開那樣不適合自己的環境。
+            </p>
+        </section>
+
+        <section id="tech-insights" class="section-header">
+            <h3>關於這份申請網頁，分享一個開發時的技術心得</h3>
+            <p>在開發這份申請網頁的過程中，我學到了如何處理網頁的響應式設計。使用Bootstrap框架讓我能夠更快地調整不同設備尺寸的需求，從而提升使用者體驗。這次學習過程也幫助我更好地理解了HTML、CSS的基本結構和運用技巧。
+            </p>
+        </section>
+
+        <section id="relationship" class="section-header">
+            <h3>如何看待自身工作和整個社會群體的連結關係？</h3>
+            <p>每個人在社會這個巨大的機器中都是一個零件，每個零件之間都存在著一定的關聯，有些零件是直接碰觸最終端使用者，就像我先前的專任助理一樣，雖平常主要在辦公室，不須面對面接待客戶，但每天仍透過電話紀錄及協助客戶擔任與工程師溝通的橋樑，我認為以我目前想要轉職的工程師職業乍看之下與社會群體沒有直接的連結，但實際上就是以產出的程式、網頁等相關的成品間接與社會群體的生活產生連結，小到超商結帳系統大到網路搜尋google等，在生活中幾乎無處不在，只是相對直接連結獲得反饋的第一線接觸者，若產出的服務需要變更或修正時，這中間會有更多處理參與的團隊及決策人員。
+            </p>
+        </section>
+
+        <section id="talk-more" class="section-header">
+            <h3>其他想要對我們說的事情？</h3>
+            <p>自從科技業就業市場這幾年供需回歸正常後，網路上的氣氛與風向，對轉職這件事的評論，也漸漸從鼓勵到看衰甚至諷刺，讓我們這群在轉職路途中徬徨的人，感到非常的焦慮，總在想當初選擇這條路到底是不是正確的，又加上轉職的機構也開始一間一間的消失，今年像知名AppWorks
+                School不再提供相關的工程師培訓和之前常常看到廣告的ALPHA
+                camp也決定停止營運，更是讓無法花大錢參加資策會或是其他工程師培訓營的人，陷入無比的絕望，所以當發現彭彭老師的wehelp計畫後，讓我又燃起了一絲希望，在聽完說明會後更加確定想要參加的決心，心想，或許這就是我一直在轉職路上的盲點，以往的學習方式總是像念書時期的填鴨式學習，無法讓自己用工程師方式去思考，該怎麼解決問題或怎麼實際做運用，希望可以透過參加計畫的過程中，可以真正適應工程師的日常及工作的節奏，順利轉職成功。
+            <p>另外想對您們與自己說:「雖然在這條路上的質疑與嘲諷不曾消失，但只要確信自己行走在正確的道路上，就不須理會那些永遠只活在舒適圈自我滿足感動的人。」
+            </p>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Wehelp Bootcamp Application</p>
+        </footer>
+    </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
